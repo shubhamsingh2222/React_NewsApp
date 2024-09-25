@@ -8,7 +8,7 @@ export default function News(props) {
 
     // const fetchData = async (pagenumber) => {
     //   try {
-    //     let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=54a193a1e5c0435b9bfe6dff5a8f8149&page=${pagenumber}`
+    //     let url = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${apiKey}&page=${pagenumber}`
     //     const response = await axios.get(url);
     //     setarticle({
     //       articles: response.data.articles, 
